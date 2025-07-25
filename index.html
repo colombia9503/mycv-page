@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santiago Umaña - Senior Software Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Simple scrollbar styling for a more modern look */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #94a3b8;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #64748b;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-700">
+
+<!-- Main Container -->
+<div class="container mx-auto max-w-6xl p-4 sm:p-6 lg:p-8">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+        <!-- Left Column (Sticky) -->
+        <aside class="md:sticky md:top-8 md:col-span-1 h-full">
+            <div class="bg-white p-6 rounded-2xl shadow-sm">
+                <div class="text-center">
+                    <h1 class="text-3xl font-bold text-slate-900">Santiago Umaña</h1>
+                    <p class="text-lg text-sky-600 font-medium mt-1">Senior Software Engineer</p>
+                </div>
+
+                <div class="mt-8">
+                    <h2 class="text-sm font-semibold text-slate-500 uppercase tracking-wider">Contact</h2>
+                    <ul class="mt-4 space-y-3">
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-slate-400"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            <a href="tel:+573223927076" class="ml-3 text-slate-600 hover:text-sky-600 transition-colors">+57 322 392 7076</a>
+                        </li>
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-slate-400"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            <a href="mailto:santi950312@gmail.com" class="ml-3 text-slate-600 hover:text-sky-600 transition-colors">santi950312@gmail.com</a>
+                        </li>
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-slate-400"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                            <!-- Make sure to replace '#' with your actual LinkedIn profile URL -->
+                            <a href="#" class="ml-3 text-slate-600 hover:text-sky-600 transition-colors">LinkedIn Profile</a>
+                        </li>
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-slate-400"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                            <!-- This link assumes 'SantiagoUmanaCV.pdf' is in the same folder as this HTML file -->
+                            <a href="SantiagoUmanaCV.pdf" download="SantiagoUmana-CV.pdf" class="ml-3 text-slate-600 hover:text-sky-600 transition-colors">Download CV</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="mt-8">
+                    <h2 class="text-sm font-semibold text-slate-500 uppercase tracking-wider">Core Skills</h2>
+                    <div class="mt-4 flex flex-wrap gap-2">
+                        <span class="bg-sky-100 text-sky-800 text-sm font-medium px-3 py-1 rounded-full">Java</span>
+                        <span class="bg-sky-100 text-sky-800 text-sm font-medium px-3 py-1 rounded-full">Kotlin</span>
+                        <span class="bg-sky-100 text-sky-800 text-sm font-medium px-3 py-1 rounded-full">Golang</span>
+                        <span class="bg-teal-100 text-teal-800 text-sm font-medium px-3 py-1 rounded-full">Spring Framework</span>
+                        <span class="bg-teal-100 text-teal-800 text-sm font-medium px-3 py-1 rounded-full">Distributed Systems</span>
+                        <span class="bg-indigo-100 text-indigo-800 text-sm font-medium px-3 py-1 rounded-full">AWS</span>
+                        <span class="bg-indigo-100 text-indigo-800 text-sm font-medium px-3 py-1 rounded-full">Kubernetes</span>
+                        <span class="bg-indigo-100 text-indigo-800 text-sm font-medium px-3 py-1 rounded-full">Docker</span>
+                        <span class="bg-rose-100 text-rose-800 text-sm font-medium px-3 py-1 rounded-full">PostgreSQL</span>
+                        <span class="bg-rose-100 text-rose-800 text-sm font-medium px-3 py-1 rounded-full">CI/CD</span>
+                        <span class="bg-amber-100 text-amber-800 text-sm font-medium px-3 py-1 rounded-full">Agile/SCRUM</span>
+                    </div>
+                </div>
+
+                <div class="mt-8">
+                    <h2 class="text-sm font-semibold text-slate-500 uppercase tracking-wider">Education</h2>
+                    <div class="mt-4">
+                        <h3 class="font-semibold text-slate-800">Software Engineering</h3>
+                        <p class="text-sm text-slate-500">Universidad de Medellín (In Progress)</p>
+                    </div>
+                    <div class="mt-3">
+                        <h3 class="font-semibold text-slate-800">Technician in Software Development</h3>
+                        <p class="text-sm text-slate-500">Politecnico Jaime Isaza Cadavid</p>
+                    </div>
+                </div>
+
+            </div>
+        </aside>
+
+        <!-- Right Column (Scrollable) -->
+        <main class="md:col-span-2">
+            <!-- Summary Section -->
+            <section id="summary" class="bg-white p-6 rounded-2xl shadow-sm">
+                <h2 class="text-xl font-bold text-slate-900 border-b pb-3">Summary</h2>
+                <p class="mt-4 text-slate-600 leading-relaxed">
+                    IT professional with over 9 years of experience in the software development industry, specializing in backend development. Proficient in Java, Kotlin, and Golang, with extensive experience building complex distributed and reactive systems. My expertise includes technical solution design, architectural patterns, application troubleshooting, and DevOps. I have a strong background in business domains such as banking, logistics, e-commerce, and customer support. As a collaborative team member, I am focused on understanding all aspects of a project, with keen attention to detail and strong problem-solving skills.
+                </p>
+            </section>
+
+            <!-- Work Experience Section -->
+            <section id="experience" class="bg-white p-6 rounded-2xl shadow-sm mt-8">
+                <h2 class="text-xl font-bold text-slate-900 border-b pb-3">Work Experience</h2>
+                <div class="mt-6 space-y-8">
+
+                    <!-- EPAM Systems -->
+                    <div class="flex">
+                        <div class="flex-shrink-0 mr-4">
+                            <div class="w-12 h-12 bg-slate-200 rounded-full flex items-center justify-center font-bold text-slate-600">EG</div>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-slate-800">Senior Software Engineer</h3>
+                            <p class="text-sky-600 font-medium">Epam Systems (for Expedia Group)</p>
+                            <p class="text-sm text-slate-500">May 2022 – Present</p>
+                            <p class="mt-3 text-slate-600 leading-relaxed">
+                                Contributed to the air reservations flow, a critical part of Expedia's core business. Key responsibilities included migrating services to a new Kubernetes-based compute platform, leading development initiatives using Java and AWS, and documenting migration processes to guide other teams.
+                            </p>
+                            <p class="mt-2 text-slate-600"><span class="font-semibold">Environment:</span> Java, Spring, PostgreSQL, Kubernetes, Helm, AWS (SQS, IAM), Docker, Splunk, Datadog.</p>
+                        </div>
+                    </div>
+
+                    <!-- MercadoLibre -->
+                    <div class="flex">
+                        <div class="flex-shrink-0 mr-4">
+                            <div class="w-12 h-12 bg-slate-200 rounded-full flex items-center justify-center font-bold text-slate-600">ML</div>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-slate-800">Senior Software Engineer</h3>
+                            <p class="text-sky-600 font-medium">MercadoLibre</p>
+                            <p class="text-sm text-slate-500">Apr 2021 – May 2022</p>
+                            <p class="mt-3 text-slate-600 leading-relaxed">
+                                Worked in the Seller Experience vertical, developing features for the reporting team. Developed a component to generate bank statement reports across multiple Latin American countries and provided technical guidance and support for performance issues across team-owned applications.
+                            </p>
+                            <p class="mt-2 text-slate-600"><span class="font-semibold">Environment:</span> Golang, Java, Spring, React, MySQL, Oracle, GinGonic, Docker, Kibana, Datadog.</p>
+                        </div>
+                    </div>
+
+                    <!-- Rappi -->
+                    <div class="flex">
+                        <div class="flex-shrink-0 mr-4">
+                            <div class="w-12 h-12 bg-slate-200 rounded-full flex items-center justify-center font-bold text-slate-600">R</div>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-slate-800">Senior Backend Developer</h3>
+                            <p class="text-sky-600 font-medium">Rappi</p>
+                            <p class="text-sm text-slate-500">Oct 2019 – Apr 2021</p>
+                            <p class="mt-3 text-slate-600 leading-relaxed">
+                                At the Growth vertical, I developed features for the Growth CMS to manage user communications, coupons, and offers. Key projects included implementing a rate-limiting system for communications and creating Apache Airflow DAGs to migrate campaign data to Braze.
+                            </p>
+                            <p class="mt-2 text-slate-600"><span class="font-semibold">Environment:</span> Kotlin, Spring Webflux, Python, Apache Airflow, Kafka, PostgreSQL, Snowflake, Docker, Redis.</p>
+                        </div>
+                    </div>
+
+                    <!-- Accenture -->
+                    <div class="flex">
+                        <div class="flex-shrink-0 mr-4">
+                            <div class="w-12 h-12 bg-slate-200 rounded-full flex items-center justify-center font-bold text-slate-600">A</div>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-slate-800">Java Backend Developer</h3>
+                            <p class="text-sky-600 font-medium">Accenture (for Bancolombia)</p>
+                            <p class="text-sm text-slate-500">May 2019 – Oct 2020</p>
+                            <p class="mt-3 text-slate-600 leading-relaxed">
+                                Served as a Key Developer on the Payments QR v2 project. I was responsible for guiding the development team, designing application architecture, creating AWS infrastructure, and developing core features for QR payment generation and settlement.
+                            </p>
+                            <p class="mt-2 text-slate-600"><span class="font-semibold">Environment:</span> Java, Spring, RxJava, Netty, AWS (SQS, SNS, RDS, S3), Aurora PostgreSQL, Redis.</p>
+                        </div>
+                    </div>
+
+                    <!-- Vertical Technologies -->
+                    <div class="flex">
+                        <div class="flex-shrink-0 mr-4">
+                            <div class="w-12 h-12 bg-slate-200 rounded-full flex items-center justify-center font-bold text-slate-600">VT</div>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-slate-800">Backend Software Developer</h3>
+                            <p class="text-sky-600 font-medium">Vertical Technologies Medellin</p>
+                            <p class="text-sm text-slate-500">Jan 2018 – Jan 2019</p>
+                            <p class="mt-3 text-slate-600 leading-relaxed">
+                                Built REST web services for the Rapicredits backend and developed the core for a chatbot builder that generated bots for Telegram, WhatsApp, and Facebook Messenger from JSON configurations.
+                            </p>
+                            <p class="mt-2 text-slate-600"><span class="font-semibold">Environment:</span> Java, Spring, Vert.x, Reactor, Docker Swarm, PostgreSQL, JUnit.</p>
+                        </div>
+                    </div>
+
+                    <!-- Plusystem Medellin -->
+                    <div class="flex">
+                        <div class="flex-shrink-0 mr-4">
+                            <div class="w-12 h-12 bg-slate-200 rounded-full flex items-center justify-center font-bold text-slate-600">P</div>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-slate-800">Software Developer</h3>
+                            <p class="text-sky-600 font-medium">Plusystem Medellin</p>
+                            <p class="text-sm text-slate-500">Apr 2016 – Dec 2017</p>
+                            <p class="mt-3 text-slate-600 leading-relaxed">
+                                Developed a variety of solutions, including a stock control application backend in Golang (CPP), a native Android mobile app for material processing, and a frontend integration for a BPMN application using AngularJS.
+                            </p>
+                            <p class="mt-2 text-slate-600"><span class="font-semibold">Environment:</span> Golang, Java, Gorilla Toolkit, MySQL, Javascript, Thymeleaf, Linux.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Certifications Section -->
+            <section id="certs" class="bg-white p-6 rounded-2xl shadow-sm mt-8">
+                <h2 class="text-xl font-bold text-slate-900 border-b pb-3">Certifications & Training</h2>
+                <ul class="mt-4 space-y-2 list-disc list-inside text-slate-600">
+                    <li>Oracle Certified Associate, Java SE 7 Programmer (1Z0-803)</li>
+                    <li>EC-Council Certified Secure Programmer, Java (ECSP-Java)</li>
+                    <li>Advanced Kotlin Programming (O'Reilly)</li>
+                    <li>PostgreSQL High Performance (Course)</li>
+                    <li>Aspect Oriented Programming with Spring AOP & AspectJ (Pluralsight)</li>
+                    <li>Test-Driven Development with JUnit 5 (Pluralsight)</li>
+                </ul>
+            </section>
+
+        </main>
+    </div>
+</div>
+
+</body>
+</html>
